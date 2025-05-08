@@ -149,7 +149,7 @@ features = [
     "lazy",
     "svg",
     "web-colors",
-    # "tiny-skia",
+    "tiny-skia",
 ]
 
 [dependencies.iced_runtime]
@@ -173,8 +173,8 @@ path = "./iced/futures"
 path = "./iced/accessibility"
 optional = true
 
-#[dependencies.iced_tiny_skia]
-#path = "./iced/tiny_skia"
+[dependencies.iced_tiny_skia]
+path = "./iced/tiny_skia"
 
 [dependencies.iced_winit]
 path = "./iced/winit"
